@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import '../Styling/NavigationBar.css';
 
 /**
  * @brief Builds the Navigation Bar using HTML
@@ -7,9 +8,13 @@ import { Container } from "react-bootstrap";
 export class NavigationBar extends React.Component {
   render() {
     return (
-      <Container>
-          <h1>Hi there sunshine</h1>
+      <>
+      
+      <Container className = "Title-Container">
+          <h1 className = "Title">Justin's Portfolio</h1>
       </Container>
+        
+      </>
     );
   }
 }
