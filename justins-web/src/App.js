@@ -4,7 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <NavigationBar /> 
+    <>
+
+      <div className="Body">
+        
+        <NavigationBar />
+        
+      </div>
+    </>
   );
 }
 
