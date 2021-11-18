@@ -33,7 +33,7 @@ class Home extends Component {
                 <Card.Img variant="top" src={require("../components/assets/project1.png")} />
                 <Card.Body>
                   <Card.Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                  <Card.Title>"Cool guy stuff</Card.Title>
+                    <Card.Title>"Cool guy stuff</Card.Title>
                   </Card.Link>
                   <Card.Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Code</Card.Link>
                 </Card.Body>
@@ -47,7 +47,7 @@ class Home extends Component {
                 />
                 <Card.Body>
                   <Card.Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                  <Card.Title>More cool guy stuff</Card.Title>
+                    <Card.Title>More cool guy stuff</Card.Title>
                   </Card.Link>
                   <Card.Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Code</Card.Link>
                 </Card.Body>
@@ -59,6 +59,7 @@ class Home extends Component {
             <Button href="./projects" size="md">
               Click to see my projects
             </Button>
+            <Button href="./aboutme">about me</Button>
           </Row >
           <br />
         </Container>
