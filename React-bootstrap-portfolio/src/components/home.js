@@ -56,7 +56,7 @@ class Home extends Component {
             </Col>
           </Row>
           <Row className="justify-content-md-center">
-            <Button href="./projects" variant="secondary" size="md">
+            <Button href="/projects" variant="secondary" size="md">
               My projects...
             </Button>
           </Row >
