@@ -59,7 +59,6 @@ class Home extends Component {
             <Button href="./projects" size="md">
               Click to see my projects
             </Button>
-            <Button href="./aboutme">about me</Button>
           </Row >
           <br />
         </Container>
