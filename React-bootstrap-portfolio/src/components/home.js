@@ -1,27 +1,32 @@
 import React, { Component } from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import { Card, Container, Row, Col, Button } from "react-bootstrap";
+import { Card, Container, Row, Col, Button, Image } from "react-bootstrap";
 import SocialFollow from "./SocialFollow";
+import profile from './assets/about.jpeg'
+import '../Styling.css/home.css'
 
 class Home extends Component {
   render() {
     return (
       <div>
         <Jumbotron className="jumbotron">
-          <h1 style={{color: 'gray'}} > Hello, my name is </h1>
-           <h1 class="display-4"> Dina Liubarets</h1>
+          <h1 style={{ color: 'gray' }} > Hello, my name is </h1>
+          <h1 class="display-4"> Justin Lowell</h1>
           <br />
-          <h3 style={{marginTop:'0%'}}>I'm full stack web developer </h3>
-          <h4 style={{float: 'right'}}> </h4>
+          <div className="centerPhoto">
+            <Image src={profile} roundedCircle width="300" height="300" className="ProfilePic" />
+          </div>
+          <h3 style={{ marginTop: '0%' }}>I'm a Software Engineer </h3>
+          <h4 style={{ float: 'right' }}> </h4>
 
-          <SocialFollow  />
-        
+          <SocialFollow />
+
         </Jumbotron>
         <br />
 
         <Container>
-        <hr /> 
-        <h4 id="center">Some of my latest projects</h4><br/>
+          <hr />
+          <h4 id="center">Some of my latest projects</h4><br />
           <Row className="justify-content-md-center">
             <Col xs={12} md={4}>
               <Card>
@@ -50,17 +55,17 @@ class Home extends Component {
               <br />
             </Col>
           </Row>
-         <Row className="justify-content-md-center">
-          <Button href="./projects" variant="secondary" size="md">
-            My projects...
-          </Button>
+          <Row className="justify-content-md-center">
+            <Button href="./projects" variant="secondary" size="md">
+              My projects...
+            </Button>
           </Row >
-          <br/>
+          <br />
         </Container>
-        <br/>
-        <hr/>
-        <br/>
-        <h4 id="center"> My Skills</h4><br/>
+        <br />
+        <hr />
+        <br />
+        <h4 id="center"> My Skills</h4><br />
         <Container>
           <Row>
             <Col xs={6} md={4}>
@@ -81,14 +86,14 @@ class Home extends Component {
             </Col>
             <Col xs={6} md={4}>
               <ul>
-                <li>MongoDB</li>
+                <li>PostgreSQL</li>
                 <li>MySQL</li>
                 <li>Git and more</li>
               </ul>
             </Col>
           </Row>
         </Container>
-        <br/>
+        <br />
       </div>
     );
   }

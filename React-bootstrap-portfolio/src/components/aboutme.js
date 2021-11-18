@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Image from "react-bootstrap/Image";
 import Media from "react-bootstrap/Media";
 import { Col, Row } from "react-bootstrap";
-import SocialFollow from "./SocialFollow";
+// import SocialFollow from "./SocialFollow";
 
 export default class aboutme extends Component {
   render() {
@@ -12,7 +12,7 @@ export default class aboutme extends Component {
           <Col md={4} xs={12} fluid>
             <Image
               width={380}
-              height={350}
+              height={1050}
               className="ml-6 img"
               src={require("./assets/about.jpeg")}
               alt="Generic placeholder"
@@ -20,7 +20,7 @@ export default class aboutme extends Component {
               thumbnail
             />
             <br />
-            <SocialFollow />
+            {/* <SocialFollow /> Can add back in if wanted */}
           </Col>
 
           <Col md={8} xs={12}>
@@ -32,28 +32,11 @@ export default class aboutme extends Component {
               </h4> */}
 
               <p>
-                I'm a Lawyer who code. I finished law school in Ukraine and
-                practice for 3 years. In 2013 I moved to Canada. For last 6
-                years I was growing a family and helping with our family
-                business that where I start being interested in codding
-                websites. This hobby become a passion and in May 2020 I took
-                Carleton university 24 weeks of codding boot camp. Sitting next
-                to computer and solving a problems, learning technology became
-                part of my life where I feel comfortable and exited to learn and
-                build.
+                I got my Bachelor of Science in Computer Science from Liberty University in May of 2021. I graduated with a concentration in Cyber Security
+                  and Web and Mobile Development. Currently, I work for the DoD as a DevSecOps Engineer.
               </p>
               <p>
-                For last few years I'm having a instagram blog where I share
-                with world my life. Where I exploring a world through traveling
-                and fulfill my other passion photos with videos and adventures
-                that come with them. Fashion one more part of my life where I
-                can show and describe my self to world. I always keep up with
-                time. Im good with leadership and time management skills.
-                Responsible and open person. Open for everything new with
-                respect too old things. Im really diversified where i know how
-                to read stars with astropsychology in the same time I know
-                criminal Law and how to build front and end websites. “Be the
-                CEO of your life.” (Robin Sharma) - my life quote!
+                I enjoy doing any activity that involves the outdoors and more specifically the ocean. My hobbies include...
               </p>
               <p>
                 “Any fool can write code that a computer can understand. Good

@@ -16,13 +16,13 @@ export default class contact extends Component {
             <Table striped bordered hover variant="light" responsive>
               <tr>
                 <th>Name</th>
-                <td>Dina Liubarets</td>
+                <td>Justin Lowell</td>
               </tr>
               <tr>
                 <th>Phone</th>
                 <td>
-                  <a className="link" href="tel: +16138791608">
-                    613-879-1608
+                  <a className="link" href="tel: +14342211019">
+                    434-221-1019
                   </a>
                 </td>
               </tr>
@@ -31,9 +31,9 @@ export default class contact extends Component {
                 <td>
                   <a
                     className="link email"
-                    href="mailto: dina.liubarets@gmail.com"
+                    href="mailto: jalowell98@gmail.com"
                   >
-                    dina.liubarets@gmail.com
+                    jalowell98@gmail.com
                   </a>
                 </td>
               </tr>
@@ -41,6 +41,7 @@ export default class contact extends Component {
             <br />
             <br />
             <br />
+            <h2>Follow me on Social Media:</h2>
             <SocialFollow />
           </Col>
           <Col xs={12} md={6}>

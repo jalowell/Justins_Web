@@ -16,7 +16,7 @@ function App() {
         variant="dark"
       >
         <Navbar.Brand as={NavLink} to="/">
-          Dina Liubarets
+          Justin Lowell
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -50,7 +50,7 @@ function App() {
         >
           <Navbar.Brand>
             <h6 className="text-muted">
-              &copy;{new Date().getFullYear()} Di Liubarets
+              &copy;{new Date().getFullYear()} Justin Lowell
             </h6>
           </Navbar.Brand>
         </Navbar>
