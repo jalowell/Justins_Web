@@ -30,12 +30,12 @@ class Home extends Component {
           <Row className="justify-content-md-center">
             <Col xs={12} md={4}>
               <Card>
-                <Card.Img variant="top" src={require("../components/assets/todolist.png")} />
+                <Card.Img variant="top" src={require("../components/assets/project1.png")} />
                 <Card.Body>
-                  <Card.Link href="https://diliubarets.github.io/toDoListReact/">
-                    <Card.Title>"To do list" with React.js</Card.Title>
-                  </Card.Link>
-                  <Card.Link href="https://github.com/DiLiubarets/toDoListReact">Code</Card.Link>
+                  {/* <Card.Link href="https://diliubarets.github.io/toDoListReact/"> */}
+                  <Card.Title>"Cool guy stuff</Card.Title>
+                  {/* </Card.Link> */}
+                  {/* <Card.Link href="https://github.com/DiLiubarets/toDoListReact">Code</Card.Link> */}
                 </Card.Body>
               </Card>
             </Col>
@@ -43,13 +43,13 @@ class Home extends Component {
               <Card>
                 <Card.Img
                   variant="top"
-                  src={require("../components/assets/burger.png")}
+                  src={require("../components/assets/project1.png")}
                 />
                 <Card.Body>
-                  <Card.Link href="https://warm-crag-56059.herokuapp.com">
-                    <Card.Title>Burger-App</Card.Title>
-                  </Card.Link>
-                  <Card.Link href="https://github.com/DiLiubarets/myBurger-App">Code</Card.Link>
+                  {/* <Card.Link href="https://warm-crag-56059.herokuapp.com"> */}
+                  <Card.Title>More cool guy stuff</Card.Title>
+                  {/* </Card.Link> */}
+                  {/* <Card.Link href="https://github.com/DiLiubarets/myBurger-App">Code</Card.Link> */}
                 </Card.Body>
               </Card>
               <br />
@@ -81,7 +81,7 @@ class Home extends Component {
                 <li>Express.js</li>
                 <li>React.js</li>
                 <li>Node.js</li>
-                <li>Datebase Theory</li>
+                <li>Datebase Management</li>
               </ul>
             </Col>
             <Col xs={6} md={4}>
