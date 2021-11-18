@@ -6,4 +6,8 @@
   background-size: cover;
 }
 
-
+.profilePic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

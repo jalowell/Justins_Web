@@ -5,7 +5,7 @@ import '../Styling/Header.css';
 /**
  * @brief Builds the Navigation Bar using HTML
  */
-export class NavigationBar extends React.Component {
+export class Header extends React.Component {
   render() {
     return (
       <>
@@ -21,4 +21,4 @@ export class NavigationBar extends React.Component {
 }
 
 // Making the NavigationBar importable
-export default NavigationBar;
+export default Header;
