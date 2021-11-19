@@ -7,7 +7,7 @@ import {
 
 export default function SocialFollow() {
   return (
-    <div style={{float: 'left', marginLeft: '-30px'}} class="social-container">
+    <div style={{float: 'left', marginLeft: "-20px"}} class="social-container">
       <a
         href="https://www.linkedin.com/in/justin-a-lowell/"
         className="linkedin social"
