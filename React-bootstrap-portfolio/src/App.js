@@ -19,18 +19,18 @@ function App() {
           Justin Lowell
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" className="collapsedNav">
           <Nav className="mr-auto">
-            <Nav.Link as={NavLink} to="/resume">
+            <Nav.Link as={NavLink} to="/resume" className="navBarElement">
               Resume
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/aboutme">
+            <Nav.Link as={NavLink} to="/aboutme" className="navBarElement">
               About
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/projects">
+            <Nav.Link as={NavLink} to="/projects" className="navBarElement">
               Projects
             </Nav.Link>
-            <Nav.Link as={NavLink} to="/contact">
+            <Nav.Link as={NavLink} to="/contact" className="navBarElement">
               Contact me
             </Nav.Link>
           </Nav>

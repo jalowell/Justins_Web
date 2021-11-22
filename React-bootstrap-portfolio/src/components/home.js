@@ -14,7 +14,7 @@ class Home extends Component {
           <h1 class="display-4"> Justin Lowell</h1>
           <br />
           <div className="centerPhoto">
-            <Image src={profile} roundedCircle width="300" height="300" className="ProfilePic" />
+            <Image src={profile} roundedCircle width="300" height="300" className="d-none d-lg-block" />
           </div>
           <h3 style={{ marginTop: '0%' }}>I'm a Software Engineer </h3>
           <h4 style={{ float: 'right' }}> </h4>

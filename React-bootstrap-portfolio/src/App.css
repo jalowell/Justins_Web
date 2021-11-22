@@ -27,8 +27,9 @@
 }
 
 /* home page */
-#center {
+.navBarElement {
   text-align: center;
+  border-style: groove;
 }
 .Card {
   padding-top: 2em;
@@ -59,4 +60,8 @@
 }
 .social {
   padding: 20px;
+}
+
+.collapsedNav {
+  background-color: lightslategray;
 }
