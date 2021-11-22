@@ -65,7 +65,7 @@ class Home extends Component {
         <br />
         <hr />
         <br />
-        <h4 id="center"> My Skills</h4><br />
+        <h4 style={{textAlign: "center"}}> My Skills</h4><br />
         <Container>
           <Row>
             <Col xs={6} md={4}>

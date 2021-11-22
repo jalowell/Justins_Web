@@ -63,5 +63,7 @@
 }
 
 .collapsedNav {
-  background-color: lightslategray;
+  background-color: #343a40; 
+  position: relative;
+  z-index: 1;
 }
