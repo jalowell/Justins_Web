@@ -21,7 +21,7 @@ export default class contact extends Component {
               <tr>
                 <th>Phone</th>
                 <td>
-                  <a className="link" href="tel: +14342211019">
+                  <a className="link">
                     434-221-1019
                   </a>
                 </td>
